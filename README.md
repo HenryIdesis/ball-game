@@ -1,30 +1,45 @@
-# ball-game
 # Ball Game
 
-Jogo desenvolvido para a disciplina de Jogos Digitais 2026.1.
+Jogo desenvolvido para a disciplina de Jogos Digitais 2026.1 (Insper).
 
 ## Sobre o jogo
-Ball Game é um jogo em que o jogador deve coletar as bolas antes que o tempo acabe.
+Ball Game é um jogo 2D onde o jogador deve coletar todas as bolas antes que o tempo acabe.  
+Cada bola coletada aumenta o score e adiciona tempo ao cronômetro, criando uma mecânica de risco e recompensa.
 
 ## Como jogar
-- Use WASD ou as setas para se mover
-- Colete as bolas
-- Cada bola adiciona tempo
-- Se o tempo acabar, o jogo termina
+- Use **WASD** ou **setas do teclado** para se mover
+- Colete todas as bolas no cenário
+- Cada bola adiciona **+2 segundos**
+- O jogo termina quando:
+  - o tempo acaba, ou
+  - todas as bolas são coletadas
 
-## Funcionalidades
+## Mecânicas implementadas
+- Sistema de **tempo (timer)**
+- Tempo como mecânica (ganho de tempo ao coletar)
+- Sistema de **score**
+- Interface com:
+  - tempo atual
+  - score
 - Menu inicial
-- Timer
-- Score na interface
 - Tela de fim de jogo
-- Botão de reiniciar
-- Botão de voltar ao menu
+- Botões de:
+  - reiniciar
+  - voltar ao menu
+
+## Tecnologias utilizadas
+- Unity 6 (6000.4.2f1)
+- C#
+- TextMeshPro
 
 ## Créditos
-- Assets visuais: [nome do asset / autor / link]
-- Áudio: [nome do som / autor / link]
-- Qualquer outro asset usado
+- Projeto baseado no tutorial de introdução ao Unity fornecido na disciplina
+- Assets simples (formas geométricas) utilizados diretamente no Unity
+- Áudio: https://pixabay.com/
 
 ## Links
-- Itch.io: [link do seu jogo]
-- Build WebGL: [se quiser indicar]
+- Itch.io (jogo jogável no navegador):  
+  https://henry-idesis.itch.io/ball-game
+
+- Repositório GitHub:  
+  https://github.com/SEU-USUARIO/ball-game
